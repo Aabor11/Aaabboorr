@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Furqon & winda • Pernikahan Suci</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Playfair Display', serif;
+      background: #0f0c07 url('https://images.unsplash.com/photo-1519741497674-281450b0f9b5?auto=format&fit=crop&q=80&w=2000') center/cover no-repeat fixed;
+      color: #f5f0e9;
+      overflow-x: hidden;
+    }
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 12, 7, 0.65);
+      z-index: 1;
+      pointer-events: none;
+    }
+    main {
+      position: relative;
+      z-index: 2;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
+    h1, h2, h3 {
+      font-family: 'Cinzel', serif;
+      color: #d4af37; /* gold mewah */
+    }
+    .hero {
+      margin-bottom: 5rem;
+    }
+    .hero h1 {
+      font-size: 5.5rem;
+      letter-spacing: 6px;
+      margin-bottom: 0.8rem;
+      text-shadow: 0 4px 15px rgba(0,0,0,0.7);
+    }
+    .hero .and {
+      font-family: 'Great Vibes', cursive;
+      font-size: 6rem;
+      color: #e8d5a3;
+      margin: 1rem 0;
+      transform: rotate(-8deg);
+    }
+    .hero p {
+      font-size: 1.6rem;
+      letter-spacing: 3px;
+      opacity: 0.9;
+      margin-top: 1.5rem;
+    }
+    .section {
+      max-width: 780px;
+      margin: 5rem auto;
+      padding: 3rem 2rem;
+      background: rgba(20, 18, 15, 0.65);
+      border: 1px solid rgba(212, 175, 55, 0.25);
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+    }
+    .section h2 {
+      font-size: 3.2rem;
+      margin-bottom: 1.8rem;
+      position: relative;
+      display: inline-block;
+    }
+    .section h2::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #d4af37, transparent);
+    }
+    .date {
+      font-size: 1.9rem;
+      margin: 1.5rem 0;
+      color: #e8d5a3;
+    }
+    .time-loc {
+      font-size: 1.35rem;
+      line-height: 2;
+      opacity: 0.95;
+    }
+    .photo-frame {
+      width: 260px;
+      height: 260px;
+      margin: 2.5rem auto;
+      border: 8px solid #d4af37;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+    }
+    .photo-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .gift {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+    .btn {
+      display: inline-block;
+      margin: 1.2rem 0.6rem;
+      padding: 0.9rem 2.2rem;
+      background: transparent;
+      border: 1.5px solid #d4af37;
+      color: #d4af37;
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      letter-spacing: 2px;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: all 0.4s;
+    }
+    .btn:hover {
+      background: #d4af37;
+      color: #0f0c07;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(212,175,55,0.3);
+    }
+    footer {
+      margin-top: 6rem;
+      font-size: 1.1rem;
+      opacity: 0.8;
+    }
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 4rem; }
+      .hero .and { font-size: 4.8rem; }
+      .section { padding: 2.5rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<main>
+
+  <section class="hero">
+    <h1>Furqon</h1>
+    <div class="and">&</div>
+    <h1>Winda</h1>
+    <p>We're getting married</p>
+  </section>
+
+  <section class="section">
+    <h2>Undangan Pernikahan</h2>
+    <p style="font-size:1.4rem; margin:1.5rem 0; font-style:italic; opacity:0.9;">
+      Dengan penuh rasa syukur dan cinta,<br>
+      kami mengundang Bapak/Ibu/Saudara/i untuk hadir<br>
+      menyaksikan dan mendoakan ijab kabul kami.
+    </p>
+
+    <div class="date">Sabtu, 28 Maret 2026</div>
+    
+    <div class="time-loc">
+      Akad Nikah • 08.00 WIB<br>
+      Resepsi • 10.00 – selesai WIB<br><br>
+      <strong>Ballroom The </strong><br>
+      Jl. Manchester, England
+    </div>
+
+    <div class="photo-frame">
+      <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&q=80&w=800" alt="Foto pengantin">
+    </div>
+
+    <p style="font-size:1.3rem; margin:2rem 0; font-style:italic;">
+      “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya…” (QS. Ar-Rum: 21)
+    </p>
+  </section>
+
+  <section class="section" style="max-width:680px;">
+    <h2>Mohon & Kirim Ucapan</h2>
+    <p style="margin-bottom:1.8rem;">Kehadiran Anda sangat berarti bagi kami.<br>Silakan konfirmasi kehadiran melalui WhatsApp:</p>
+    
+    <a href="https://wa.me/6281284942393?text=Saya%20konfirmasi%20kehadiran%20untuk%20pernikahan%20Furqon%20%26%20Winda%20InsyaAllah%20hadir." class="btn" target="_blank">
+      <i class="fab fa-whatsapp"></i> Konfirmasi Kehadiran
+    </a>
+    
+    <a href="https://wa.me/6281284942393?text=Selamat%20atas%20pernikahannya%20ya!%20Semoga%20bahagia%20selamanya." class="btn" target="_blank">
+      <i class="fas fa-heart"></i> Kirim Ucapan
+    </a>
+  </section>
+
+
+  <section class="section">
+    <h2>Amplop Digital (Wedding Gift)</h2>
+    <p style="margin:1.5rem 0;">Doa restu dan hadiah dari Anda adalah anugerah terindah bagi kami.</p>
+    <div style="font-family: monospace; font-size:1.25rem; background:rgba(212,175,55,0.1); padding:1.2rem; border-radius:8px; margin:1.5rem 0;">
+      Bank BCA<br>
+      Furqon • 2040437935<br>
+      A/N: Furqon 
+    </div>
+    <small style="opacity:0.8;">(No rekening hanya untuk yang berkenan memberikan tanda kasih)</small>
+  </section>
+
+  <footer>
+    <p>Dibuat dengan cinta • 2026</p>
+  </footer>
+
+</main>
+
+<script>
+  // Efek fade-in simpel saat load
+  document.body.style.opacity = 0;
+  setTimeout(() => {
+    document.body.style.transition = 'opacity 2.2s ease';
+    document.body.style.opacity = 1;
+  }, 300);
+</script>
+
+</body>
+</html>
